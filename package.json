@@ -29,7 +29,7 @@
     "start": "ts-node src/index.ts",
     "build": "tsc",
     "watch": "tsc -w",
-    "fix": "prettier --write ./src/**/*.ts",
+    "fix": "prettier --write ./src/**/*.ts && npm run tslint -- --fix",
     "tslint": "tslint -c tslint.json 'src/**/*.ts'",
     "lint": "npm run fix && npm run tslint",
     "test": "jest",
