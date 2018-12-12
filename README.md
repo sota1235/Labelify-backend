@@ -1,7 +1,7 @@
-ts-boilerplate [![CircleCI](https://circleci.com/gh/sota1235/Labelify-backend/tree/master.svg?style=svg)](https://circleci.com/gh/sota1235/Labelify-backend/tree/master) [![codecov](https://codecov.io/gh/sota1235/Labelify-backend/branch/master/graph/badge.svg)](https://codecov.io/gh/sota1235/Labelify-backend)
+Labelify backend [![CircleCI](https://circleci.com/gh/sota1235/Labelify-backend/tree/master.svg?style=svg)](https://circleci.com/gh/sota1235/Labelify-backend/tree/master) [![codecov](https://codecov.io/gh/sota1235/Labelify-backend/branch/master/graph/badge.svg)](https://codecov.io/gh/sota1235/Labelify-backend)
 ====
 
-Minimum boilerplate for me.
+Backend system for [Labelify frontend](https://github.com/sota1235/Labelify-frontend).
 
 ### Requirement
 
@@ -12,21 +12,6 @@ Minimum boilerplate for me.
 See `scripts` in `package.json`.
 
 ### Install
-
-```
-git clone git@github.com:sota1235/ts-boilerplate.git your_app_name
-cd your_app_name
-npm i
-```
-
-### Optional
-
-- CircleCI
-    - Only thing you need to do is to replace status badge on `README.md`.
-- Codecov
-    - Only things you need to do is
-        - 1. Set token of [Codecov](https://codecov.io/) as an environment value `CODECOV_TOKEN` on your CircleCI project.
-        - 2. Replace status badge on `README.md`.
 
 ### Licence
 
