@@ -19,6 +19,7 @@
     "husky": "^1.2.0",
     "jest": "^23.6.0",
     "lint-staged": "^8.1.0",
+    "nodemon": "^1.18.8",
     "prettier": "^1.15.3",
     "ts-jest": "^23.10.5",
     "ts-node": "^7.0.1",
@@ -26,7 +27,7 @@
     "tslint-config-prettier": "^1.17.0"
   },
   "scripts": {
-    "start": "ts-node src/index.ts",
+    "start": "nodemon src/index.ts",
     "build": "tsc",
     "watch": "tsc -w",
     "fix": "prettier --write ./src/**/*.ts && npm run tslint -- --fix",
