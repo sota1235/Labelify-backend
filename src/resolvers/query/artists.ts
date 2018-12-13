@@ -3,9 +3,12 @@ const artists = [
     artistId: 'a1111',
     name: 'aiko',
     genre: [
+      'J-POP',
+    ],
+    labels: [
       {
-        artistGenreId: 'ag1111',
-        name: 'J-POP',
+        labelId: 'l1112',
+        name: 'ラブソング',
       },
     ],
   },
@@ -13,15 +16,19 @@ const artists = [
     artistId: 'a1112',
     name: 'Base Ball Bear',
     genre: [
+      'J-ROCK',
+      'ROCK',
+    ],
+    labels: [
       {
-        artistGenreId: 'ag1112',
-        name: 'J-ROCK',
+        labelId: 'l1111',
+        name: '夜',
       },
       {
-        artistGenreId: 'ag1113',
-        name: 'ROCK',
-      }
-    ]
+        labelId: 'l1112',
+        name: 'ラブソング',
+      },
+    ],
   },
 ];
 
