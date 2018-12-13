@@ -2,6 +2,7 @@ const disks = [
   {
     diskId: 'd1111',
     name: 'まとめ1',
+    thumbnailUrl: '',
     type: 'Album',
     artist: [
       {

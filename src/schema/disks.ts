@@ -5,6 +5,7 @@ const schema = gql`
   type Disk {
     diskId: String!
     name: String!
+    thumbnailUrl: String
     type: String! # Album or Single
     artist: [Artist!]
     musics: [DiskMusic!]
