@@ -35,7 +35,7 @@ const disks = [
         ],
       },
     ],
-    released: 1544674509804,
+    released: new Date('2018-10-10 12:00:00'),
   },
 ];
 
