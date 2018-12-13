@@ -8,10 +8,7 @@ const musics = [
         artistId: 'a1111',
         name: 'aiko',
         genre: [
-          {
-            artistGenreId: 'ag1111',
-            name: 'J-POP',
-          },
+          'J_POP',
         ],
       },
     ],

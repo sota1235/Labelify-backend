@@ -10,9 +10,10 @@ const schema = gql`
   }
 
   # Artist genre, such as J-POP, J-ROCK and so on
-  type ArtistGenre {
-    artistGenreId: String!
-    name: String!
+  enum ArtistGenre {
+    J_POP
+    J_ROCK
+    ROCK
   }
 `;
 
