@@ -1,5 +1,5 @@
-import booksResolver from './booksResolver';
+import artists from './artists';
 
 export default {
-  books: booksResolver,
+  artists,
 }
