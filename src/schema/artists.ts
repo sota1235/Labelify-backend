@@ -6,6 +6,7 @@ const schema = gql`
     artistId: String!
     name: String!
     genre: [ArtistGenre!]
+    labels: [Label!]
   }
 
   # Artist genre, such as J-POP, J-ROCK and so on

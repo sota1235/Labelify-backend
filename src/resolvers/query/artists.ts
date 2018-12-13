@@ -8,6 +8,12 @@ const artists = [
         name: 'J-POP',
       },
     ],
+    labels: [
+      {
+        labelId: 'l1112',
+        name: 'ラブソング',
+      },
+    ],
   },
   {
     artistId: 'a1112',
@@ -21,7 +27,17 @@ const artists = [
         artistGenreId: 'ag1113',
         name: 'ROCK',
       }
-    ]
+    ],
+    labels: [
+      {
+        labelId: 'l1111',
+        name: '夜',
+      },
+      {
+        labelId: 'l1112',
+        name: 'ラブソング',
+      },
+    ],
   },
 ];
 
